@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { stats } from '../stats-data'
 
 const Showcase = () => {
+  // eslint-disable-next-line
   const [data, setData] = useState(stats)
   console.log(data)
 

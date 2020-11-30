@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { data } from '../hotel-data'
 
 const Homes = () => {
+  // eslint-disable-next-line
   const [homes, setHomes] = useState(data)
 
   return (
