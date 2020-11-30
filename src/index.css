@@ -44,7 +44,15 @@ body {
   margin: 10px;
 }
 
-.header .navbar ul li a {
+.header .navbar ul li button {
+  background-color: transparent;
+  color: #1c235c;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* .header .navbar ul li a {
   color: #1c235c;
 }
 
@@ -54,7 +62,7 @@ body {
   padding: 5px;
   border-radius: 5px;
   transition: 0.4s;
-}
+} */
 
 .header .navbar ul li a.action:hover {
   opacity: 0.8;

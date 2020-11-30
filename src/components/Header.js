@@ -6,33 +6,31 @@ const Header = () => {
       <nav className='navbar'>
         <ul>
           <li>
-            <a href='#'>Buy</a>
+            <button>Buy</button>
           </li>
           <li>
-            <a href='#'>Sell</a>
+            <button>Sell</button>
           </li>
           <li>
-            <a href='#'>Rent</a>
+            <button>Rent</button>
           </li>
           <li>
-            <a href='#'>Mortgage</a>
+            <button>Mortgage</button>
           </li>
           <li>
-            <a href='#'>Agents</a>
+            <button>Agents</button>
           </li>
           <li>
-            <a href='#'>Featured</a>
+            <button>Featured</button>
           </li>
           <li>
-            <a href='#'>News/Advice</a>
+            <button>News/Advice</button>
           </li>
           <li>
-            <a href='#'>Log In</a>
+            <button>Log In</button>
           </li>
           <li>
-            <a className='action' href='#'>
-              Sign Up
-            </a>
+            <button className='action'>Sign Up</button>
           </li>
         </ul>
       </nav>
